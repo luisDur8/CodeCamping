@@ -1,2 +1,2 @@
 # BootCamp
-Página informativa del BootCamp (gratuito).
+Página informativa del CodeCamping (gratuito).
