@@ -1,0 +1,150 @@
+/* 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size: 1.6rem 1.6rem;
+  background-color: #1e3799;
+
+  color: #dcdfe2;
+  margin: 1rem 35rem;
+  font-family: 'Roboto', sans-serif;
+  /*justify-content: center;*/
+}
+
+#talento-sistemas {
+  /*float: left; */
+  text-align: center;
+  color: #c9d1d9;
+  padding: 2rem;
+  border: 0.4rem solid rgba(0,0,0,.6);
+  border-radius: 1rem;
+  font-size: 6rem;
+}
+
+#linea-ts {
+  float: left;
+  background-color: rgba(0,0,0,.8);
+  border-radius: 1rem;
+  padding: 6rem 3rem;
+  margin: 9rem 10rem 5rem 5rem;
+}
+
+#bootcamp-TS {
+  margin-top: 14rem;
+  padding: 1rem;
+  font-size: 8rem;
+  text-align: center;
+  /*color: rgb(182, 92, 230);*/
+  color: plum;
+  background-color: rgba(0,0,0,.8);
+  border-radius: 1rem;
+}
+
+section {
+  background-color: rgba(0,0,0,.6);
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+#redes {
+  background: #1e3799;
+  border-radius: 0.6rem;
+  margin: 4rem 0 1.5rem;
+  box-sizing: border-box;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-right: 7rem;
+}
+
+#aprendizaje {
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 7rem;
+  margin-bottom: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 1rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#copyright {
+  text-align: center;
+  margin: 1.5rem;
+}
+/*nav ul {
+  display: inline-block;
+  border: 4px solid #8297ab;
+  text-align: center;
+}*/
+
+/* Inconos */
+.icon {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  margin: 3rem;
+  border-radius: 50%;
+  transition: all .8s;
+  cursor: pointer;
+  margin-top: 0;
+}
+
+.icon i {
+  color: #fff;
+  position: absolute;
+  font-size: 3.3rem;
+
+  /* posición */
+  top: 50%;
+  left: 50%; 
+  transform: translate(-3%,-3%);
+  
+}
+
+svg circle {
+  stroke-dasharray: 160;
+  transition: all .8s ease-in-out;  
+}
+
+.icon:hover circle {
+  stroke-dasharray: 220;
+}
+
+/*
+.icon:hover {
+  background-color: #e60073;
+}
+
+.icon:hover:nth-child(2) {
+  background-color: #1877f2;
+}
+
+.icon:hover:nth-child(3) {
+  background-color: #25d366;
+}
+*/
