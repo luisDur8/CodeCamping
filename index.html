@@ -4,14 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="preload" href="style.css" as="style">
-  <link rel="stylesheet" href="style.css">
   <title>Talento Sistemas</title>
+
+  <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Hojas de Estilo -->
+  <link rel="preload" href="css/normalize.css" as="style">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Iconos -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
   <header>
-    <div id="linea-ts"></div>
+    <div class="linea-ts" id="uno"></div>
+    <div class="linea-ts" id="dos"></div>
     <h1 id="talento-sistemas">Talento <br> Sistemas</h1>
     <h2 id="codecamping-TS">CodeCamping TS</h2>
     <!--
@@ -25,7 +38,7 @@
   </header> 
 
   <div id="fecha">
-    <p>Damos inicio este sábado 23 de abril</p>
+    <p>Inicio: sábado 23 de abril</p>
   </div>
 
   <section>  
@@ -77,6 +90,16 @@
     <nav id="redes">
       <div id="aprendizaje">Aprendizaje y grupos de Estudio en:</div>
       <ul>
+
+        <li class="icon">
+          <a href="https://www.youtube.com/channel/UCU3Hh50_26pCDKI15DV25Og" target="_blank"> 
+            <svg heigth="80" width="80">
+                <circle cx="40" cy="40" r=35 stroke="#f00" stroke-width="4" fill="none" ></circle>
+            </svg>
+            <i class='bx bxl-youtube'></i>
+          </a>
+        </li>
+
         <li class="icon">
           <a href="https://t.me/+vAYuSMCmoVMyMzI5" target="_blank"> 
             <svg heigth="80" width="80">
@@ -123,4 +146,4 @@
     </div>
   </footer>
 </body>
-</html>
+</html> 
