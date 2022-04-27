@@ -319,6 +319,12 @@ a {
   }
 }
 
+@media (max-width: 500px) {
+  .icon {
+    margin: .2rem;
+  }
+}
+
 .icon i {
   color: #fff;
   position: absolute;
@@ -328,7 +334,6 @@ a {
   top: 50%;
   left: 50%; 
   transform: translate(-3%,-3%);
-  
 }
 
 @media (max-width: 1080px) {
