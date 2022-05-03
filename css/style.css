@@ -10,8 +10,18 @@
   /* para usarlos: color: var(--primario) */
 }
 
+/* estilos globales */
 html {
   font-size: 62.5%;
+  scroll-snap-type: y mandatory;
+}
+
+/* scroll snap */
+#arriba, 
+.subtitulos,
+footer {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 body {
@@ -49,6 +59,12 @@ body {
   }
 }
    
+.sombra {
+  -webkit-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.75);
+}
+
 #talento-sistemas {
   text-align: center;
   color: #c9d1d9;
