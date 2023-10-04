@@ -6,6 +6,7 @@
   --blanco: #fff;
   --oscuro: #212121;
   --amarillo: #ffc107; 
+  --rosa: plum;
 
   /* para usarlos: color: var(--primario) */
 }
@@ -13,15 +14,6 @@
 /* estilos globales */
 html {
   font-size: 62.5%;
-  scroll-snap-type: y mandatory;
-}
-
-/* scroll snap */
-#arriba, 
-.subtitulos,
-footer {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
 }
 
 body {
@@ -94,7 +86,7 @@ body {
 }
 
 @media (max-width: 1160px) {
-  .linea-ts {
+  .linea-vertical {
     border-radius: 0.5rem;
     padding: 5rem 2.5rem;
     margin: 7.5rem 4rem 0;
@@ -102,7 +94,7 @@ body {
 }
 
 @media (max-width: 914px) {
-  .linea-ts {
+  .linea-vertical {
     border-radius: 0.5rem;
     padding: 4rem 2rem;
     margin: 8.5rem 3rem 0;
@@ -110,7 +102,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  .linea-ts {
+  .linea-vertical {
     border-radius: 0.5rem;
     padding: 3rem 1.5rem;
     margin: 6.5rem 2.5rem 0;
@@ -125,12 +117,12 @@ body {
   float: right;
 }
 
-#codecamping-TS {
+.recursos-tech {
   margin: 0;
-  padding: 6rem 3rem;
-  font-size: 9rem;
+  padding: 1rem;
+  font-size: 6rem;
   text-align: center;
-  color: plum;
+  color: var(--rosa);
   background-color: rgba(0,0,0,.8);
   border-radius: 1rem;
 }
@@ -163,9 +155,8 @@ body {
   }
 }
 
-#fecha {
-  margin-top: 12rem;
-  font-size: 3rem;
+.descripcion {
+  font-size: 2rem;
   font-weight: bold;
   margin: 5rem 20rem 15rem;
   text-align: center;
@@ -287,6 +278,15 @@ div {
   justify-content: center;
   padding-right: 7rem;
 }
+
+#copyright {
+  text-align: center;
+  margin: 2.5rem;
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
    
 #aprendizaje {
   border-radius: 1rem;
@@ -313,11 +313,7 @@ a {
   text-decoration: none;
 }
 
-#copyright {
-  text-align: center;
-  margin: 1.5rem;
-  font-weight: bold;
-}
+
 
 /* Inconos */
 .icon {
@@ -367,23 +363,11 @@ a {
 
 svg circle {
   stroke-dasharray: 10;
-  transition: all 0.01s ease-in-out;  
+  transition: all 0.1s ease-in-out;  
 }
 
 .icon:hover circle {
   stroke-dasharray: 220;
 }
 
-/*
-.icon:hover {
-  background-color: #e60073;
-}
 
-.icon:hover:nth-child(2) {
-  background-color: #1877f2;
-}
-
-.icon:hover:nth-child(3) {
-  background-color: #25d366;
-}
-*/
