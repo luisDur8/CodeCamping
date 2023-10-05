@@ -6,7 +6,10 @@
   --blanco: #fff;
   --oscuro: #212121;
   --amarillo: #ffc107; 
+<<<<<<< HEAD
   --rosa: plum;
+=======
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
 
   /* para usarlos: color: var(--primario) */
 }
@@ -14,6 +17,18 @@
 /* estilos globales */
 html {
   font-size: 62.5%;
+<<<<<<< HEAD
+=======
+  scroll-snap-type: y mandatory;
+}
+
+/* scroll snap */
+#arriba, 
+.subtitulos,
+footer {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
 }
 
 body {
@@ -86,7 +101,11 @@ body {
 }
 
 @media (max-width: 1160px) {
+<<<<<<< HEAD
   .linea-vertical {
+=======
+  .linea-ts {
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
     border-radius: 0.5rem;
     padding: 5rem 2.5rem;
     margin: 7.5rem 4rem 0;
@@ -94,7 +113,11 @@ body {
 }
 
 @media (max-width: 914px) {
+<<<<<<< HEAD
   .linea-vertical {
+=======
+  .linea-ts {
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
     border-radius: 0.5rem;
     padding: 4rem 2rem;
     margin: 8.5rem 3rem 0;
@@ -102,7 +125,11 @@ body {
 }
 
 @media (max-width: 480px) {
+<<<<<<< HEAD
   .linea-vertical {
+=======
+  .linea-ts {
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
     border-radius: 0.5rem;
     padding: 3rem 1.5rem;
     margin: 6.5rem 2.5rem 0;
@@ -117,12 +144,21 @@ body {
   float: right;
 }
 
+<<<<<<< HEAD
 .recursos-tech {
   margin: 0;
   padding: 1rem;
   font-size: 6rem;
   text-align: center;
   color: var(--rosa);
+=======
+#codecamping-TS {
+  margin: 0;
+  padding: 6rem 3rem;
+  font-size: 9rem;
+  text-align: center;
+  color: plum;
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
   background-color: rgba(0,0,0,.8);
   border-radius: 1rem;
 }
@@ -155,8 +191,14 @@ body {
   }
 }
 
+<<<<<<< HEAD
 .descripcion {
   font-size: 2rem;
+=======
+#fecha {
+  margin-top: 12rem;
+  font-size: 3rem;
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
   font-weight: bold;
   margin: 5rem 20rem 15rem;
   text-align: center;
@@ -278,6 +320,7 @@ div {
   justify-content: center;
   padding-right: 7rem;
 }
+<<<<<<< HEAD
 
 #copyright {
   text-align: center;
@@ -287,6 +330,8 @@ div {
   padding: 2rem;
   font-size: 2rem;
 }
+=======
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
    
 #aprendizaje {
   border-radius: 1rem;
@@ -313,7 +358,15 @@ a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 
+=======
+#copyright {
+  text-align: center;
+  margin: 1.5rem;
+  font-weight: bold;
+}
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
 
 /* Inconos */
 .icon {
@@ -363,11 +416,31 @@ a {
 
 svg circle {
   stroke-dasharray: 10;
+<<<<<<< HEAD
   transition: all 0.1s ease-in-out;  
+=======
+  transition: all 0.01s ease-in-out;  
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
 }
 
 .icon:hover circle {
   stroke-dasharray: 220;
 }
 
+<<<<<<< HEAD
 
+=======
+/*
+.icon:hover {
+  background-color: #e60073;
+}
+
+.icon:hover:nth-child(2) {
+  background-color: #1877f2;
+}
+
+.icon:hover:nth-child(3) {
+  background-color: #25d366;
+}
+*/
+>>>>>>> 3202322a8853b3b65dfb631f22233bf6c7471db5
