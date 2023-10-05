@@ -287,15 +287,6 @@ div {
   padding-right: 7rem;
 }
 
-#copyright {
-  text-align: center;
-  margin: 2.5rem;
-  background-color: rgba(0, 0, 0, .8);
-  border-radius: 1rem;
-  padding: 2rem;
-  font-size: 2rem;
-}
-   
 #aprendizaje {
   border-radius: 1rem;
   padding: 2rem;
@@ -304,6 +295,14 @@ div {
   text-align: center;
   margin-left: 7rem;
   margin-bottom: 0;
+}
+
+#copyright {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
 }
 
 nav ul {
